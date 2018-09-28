@@ -17,7 +17,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :ref => '5.0.0'
+  :ref => '4.25.1'
 
 mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo.git',

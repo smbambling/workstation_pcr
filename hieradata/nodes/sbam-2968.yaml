@@ -1,2 +1,86 @@
 ---
-foobar: no dice
+# {{{ Brew Taps
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/versions
+  - jeffreywildman/homebrew-virt-manager
+# }}}
+# {{{ Brew Packages
+homebrew_installed_packages:
+  - autoconf
+  - aspell
+  - augeas
+  - colordiff
+  - dockutil
+  - fabric
+  - geoip
+  - gawk
+  - git
+  - hub
+  - ipcalc
+  - iperf
+  - jq
+  - minicom
+  - mtr
+  - nmap
+  - npm
+  - nvm
+  - packer
+  - readline
+  - reattach-to-user-namespace
+  - rename
+  - shellcheck
+  - speedtest_cli
+  - ssh-copy-id
+  - task
+  - telnet
+  - tig
+  - tmux
+  - tmuxinator-completion
+  - urlview
+  - virt-manager
+  - virt-viewer
+  - watch
+  - weechat
+  - wget
+  - zsh-completions
+# }}}
+# {{{ Brew Cask Apps
+homebrew_cask_apps:
+  - 1password
+  - alfred
+  - atom
+  - authy-desktop
+  - bartender
+  - burn
+  - discord
+  - docker
+  - dropbox
+  - easysimbl
+  - filezilla
+  - firefox
+  - google-chrome
+  - gpgtools
+  - handbrake
+  - istat-menus
+  - kdiff3
+  - little-snitch
+  - macdown
+  - macvim
+  - makemkv
+  - qblocker
+  - ripit
+  - totalspaces
+  - tunnelblick
+  - unrarx
+  - slack
+  - the-unarchiver
+  - vagrant
+  - virtualbox
+  - vlc
+  - vmware-fusion
+  - xquartz
+# }}}
