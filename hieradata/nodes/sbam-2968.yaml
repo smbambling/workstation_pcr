@@ -8,6 +8,7 @@ homebrew_taps:
   - homebrew/versions
   - jeffreywildman/homebrew-virt-manager
 # }}}
+
 # {{{ Brew Packages
 homebrew_installed_packages:
   - autoconf
@@ -48,6 +49,7 @@ homebrew_installed_packages:
   - wget
   - zsh-completions
 # }}}
+
 # {{{ Brew Cask Apps
 homebrew_cask_apps:
   - 1password
@@ -83,4 +85,20 @@ homebrew_cask_apps:
   - vlc
   - vmware-fusion
   - xquartz
+# }}}
+
+# {{{ Global Python PIPs
+system_global_pips: []
+# }}}
+
+# {{{ Global Ruby GEMs
+system_global_gems:
+  tmuxinator:
+    ensure: 0.9.0
+  hiera-eyaml:
+    ensure: 2.1.0
+  bundler:
+    ensure: 1.15.3
+  fast_github:
+    ensure: absent
 # }}}
