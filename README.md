@@ -3,6 +3,11 @@
 Bolt needs to be installed on the system via a package NOT Gem
 Puppet Agent needs to be installed on the system ( This needs wrapped into the plan )
 
+## Dependancies
+
+Bolt has similar functions to R10k and can fetch any required modules from your Puppetfile.
+To do this run `bolt puppetfile install`
+
 ## Use Puppet Bolt to apply a role locally
 ```
 bolt plan run role::worktop nodes=localhost
