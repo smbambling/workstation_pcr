@@ -30,4 +30,5 @@ Reference: https://puppet.com/docs/bolt/0.x/manifest_blocks_hiera.html
 You can run puppet apply locally with the following command to trouble shoot
 
 ```
-puppet apply --hiera_config hiera.yaml --modulepath=site:modules manifests/site.pp --debug```
+puppet apply --hiera_config hiera.yaml --modulepath=site:modules manifests/site.pp --debug
+```
