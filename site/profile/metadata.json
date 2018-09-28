@@ -1,0 +1,12 @@
+{
+  "name": "profile",
+  "version": "0.0.1",
+  "author": "Steven Bambling",
+  "summary": "Roles/Profiles Profile Module",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": "",
+  "issues_url": null,
+  "dependencies": [ ]
+}
+
