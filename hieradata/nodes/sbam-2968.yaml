@@ -102,3 +102,10 @@ system_global_gems:
   fast_github:
     ensure: absent
 # }}}
+
+# {{{ MacOS Fonts
+macos_fonts:
+  hack:
+    path: /tmp/Hack-v3.003-ttf.zip
+    source: https://github.com/chrissimpkins/Hack/releases/download/v2.020/Hack-v2_020-ttf.zip
+    # source: https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip

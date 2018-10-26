@@ -13,4 +13,13 @@
 
 class profile::base (){
 
+  profile::osx_defaults { 'short delay for password dialog on screensaver':
+    ensure => present,
+    domain => 'com.apple.screensaver',
+    key    => 'askForPasswordDelay',
+    value  => '10',
+    type   => 'float',
+    user   => 'smbambling',
+  }
+
 }

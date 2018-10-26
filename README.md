@@ -32,3 +32,11 @@ You can run puppet apply locally with the following command to trouble shoot
 ```
 puppet apply --hiera_config hiera.yaml --modulepath=site:modules manifests/site.pp --debug
 ```
+
+## References
+
+https://github.com/halyard/puppet-osx
+
+https://github.com/alexharv074/mac/blob/master/mac.pp
+
+https://github.com/blakejakopovic/puppet-workstation
